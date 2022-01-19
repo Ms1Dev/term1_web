@@ -1,0 +1,362 @@
+
+
+body {
+    background-color: white;
+    margin: 0;
+    max-width: 2000px;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    margin: 50px 30px;
+    box-shadow: 4px 4px 15px 1px grey;
+    padding: 15px;
+}
+header {
+    background-image: url(images/Remote-Phones-Option-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    box-shadow: 0px 5px 15px 2px grey;
+}
+.abbreviation {
+    color: hsl(132, 31%, 57%);
+}
+h1 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: Bahnschrift Light;
+    color: rgb(119, 119, 119);
+    font-size: 40px;
+}
+h2 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: Bahnschrift Light;
+    color: rgb(119, 119, 119);
+    font-size: 35px;
+}
+#title {
+    padding: 30px;
+    padding-left: 30px;
+    font-family: Bahnschrift Light;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(219, 219, 219);
+    width: 25%;
+    text-shadow: -3px 5px 4px rgb(29,46,72);
+}
+nav{
+    border-top: 1px solid rgb(250, 248, 248);
+    border-image: linear-gradient(to right, rgb(219, 219, 219), rgba(255, 255, 255, 0) 60%) 1;
+    height: 50px;
+    display: flex;
+}
+.navlink {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Bahnschrift Light;
+    font-size: 20px;
+    padding: 5px;
+    width: 120px;
+    color: rgb(219, 219, 219);
+}
+.navlink:hover {
+    background-image: linear-gradient(white, rgb(192, 192, 192));
+    color: rgb(119, 119, 119);
+}
+.navlink:active {
+    background-image: linear-gradient(white, rgb(192, 192, 192));
+    color: rgb(119, 119, 119);
+}
+.tabs {
+    height: 50px;
+    display: flex;
+}
+.tab {
+    width: 150px;
+    border: solid rgb(119, 119, 119);
+    border-width: 0 1px 1px 0 ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Bahnschrift Light;
+    color: rgb(119, 119, 119);
+}
+.tab:hover {
+    background-color: rgb(219, 219, 219);
+}
+.tab.selected {
+    border-width: 0 1px 0 0 ;
+}
+.tab.end {
+    border-width: 0  1px 1px 0;
+}
+.tab.end.selected {
+    border-width: 0 1px 0 0 ;
+}
+.tab.filler {
+    border-width: 0  0 1px 0;
+    width: 100%;
+}
+.tab.filler:hover {
+    background-color: inherit;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+.textColumn {
+    padding: 0 20px;
+    width: 50%;
+}
+#leftColumn {
+    border-right: solid 1px rgb(119, 119, 119);
+}
+#devSocLogo {
+    width: 180px; 
+    float: left;
+}
+img {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+}
+img.bordered {
+    border: solid 1px rgb(119, 119, 119);
+}
+figure {
+    display: block;
+    text-align: center;
+}
+figcaption {
+    font-family: Bahnschrift Light;
+}
+p {
+    padding: 10px;
+    justify-content: space-evenly;
+    font-family: Bahnschrift Light;
+    font-size: 18px;
+    margin: 0;
+    text-align: left;
+    display: block;
+}
+footer {
+    height: auto;
+}
+.footerNav {
+    height: 50px;
+    display: flex;
+    border-bottom: solid 1px rgb(119, 119, 119);
+    margin: 20px;
+    justify-content: center;
+}
+.footerLink {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Bahnschrift Light;
+    font-size: 22px;
+    padding: 5px;
+    width: 120px;
+    color: rgb(119, 119, 119);
+    margin: 0 20px;
+}
+.linkImage {
+    border-radius: 0;
+    margin-bottom: 6px;
+}
+#profilePic {
+    border-radius: 50%;
+    width: 60%;
+    margin: 10px;
+}
+#contactPage {
+    display: flex;
+    justify-content: center;
+}
+#contactCard {
+    width: 20%;
+    border: solid 1px rgb(156, 156, 156);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0 100px 0;
+    text-align: center;
+}
+#homePageImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.homePageImage {
+    position: relative;
+    width: 300px;
+}
+.insetCaption {
+    position: absolute;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.insetCaption.right {
+    right: 10px;
+}
+.insetCaption.left {
+    left: 10px;
+}
+#cpdPlan {
+    display: flex;
+    justify-content: center;
+}
+table {
+    font-family: Bahnschrift Light;
+    font-size: 18px;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px 0 100px 0;
+}
+thead {
+    background-color: hsla(132, 31%, 57%, 0.3);
+    font-weight: bold;
+}
+td {
+    border-bottom: 1px solid rgb(156, 156, 156);
+    color: black;
+    padding: 10px 20px;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        border-image: linear-gradient(to right, rgb(219, 219, 219), rgba(255, 255, 255, 0)) 1;
+    }
+    .contentDivider { 
+        border-left: none
+    }
+    .pageContent {
+        flex-wrap: wrap;
+    }
+    p {
+        padding: 10px 0;
+    }
+    article {
+        flex-direction: column;
+    }
+    .textColumn {
+        width: auto;
+        padding: 0;
+        text-align: center;
+    }
+    #leftColumn {
+        border: none;
+    }
+    #devSocLogo {
+        float: unset;
+    }
+    #contactCard {
+        width: 30%;
+    }
+    #homePageImages {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #title {
+        font-size: 30px;
+        padding: 10px;
+    }
+    #heading {
+        display: none;
+    }
+    .container {
+        box-shadow: none;
+        margin: 0;
+        padding-top: 50px;
+        background-color: transparent;
+    }
+    nav {
+        justify-content: center;
+        height: 50px;
+        justify-content: space-evenly; 
+    }
+    .navlink {
+        width: unset;
+        background-image: linear-gradient(white, rgb(192, 192, 192));
+        color: rgb(119, 119, 119);
+        flex-grow: 1;
+        border-right: solid 1px rgb(177, 177, 177);
+        border-width: 0 1px;
+    }
+    figure {
+        margin: 20px 0;
+    }
+    #selectedLink {
+        background-image: linear-gradient(white, hsl(132, 31%, 57%));
+    }
+    .tabs {
+        justify-content: center;
+        height: 50px;
+        justify-content: space-evenly; 
+    }
+    .tab {
+        width: unset;
+        flex-grow: 1;
+        
+    }
+    .tab.filler {
+        display: none;
+    }
+    .tab.end {
+        border-width: 0  0 1px 0;
+    }
+    .tab.end.selected {
+        border: none;
+    }
+
+    .footerLink {
+        width: unset;
+        flex-grow: 1;
+        margin: 0;
+    }
+    .linkImage {
+        width: 110px;
+    } 
+    #contactCard {
+        width: 50%;
+    }
+    table {
+        border: 1px solid rgb(156, 156, 156); 
+    }
+    td {
+        border-right: 1px solid rgb(156, 156, 156);
+        padding: 5px 5px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .footerNav {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    table {
+        font-size: 11px;
+        margin-bottom: 20px;
+    }
+    #contactCard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
